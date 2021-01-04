@@ -11,6 +11,7 @@
 		4B603B7025A3D3E50067E6B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B603B6F25A3D3E50067E6B0 /* ContentView.swift */; };
 		4B603B7225A3D3ED0067E6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B603B7125A3D3ED0067E6B0 /* Assets.xcassets */; };
 		4B603B7525A3D3ED0067E6B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B603B7425A3D3ED0067E6B0 /* Preview Assets.xcassets */; };
+		4B603B7E25A3D7DA0067E6B0 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B603B7D25A3D7DA0067E6B0 /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4B603B7125A3D3ED0067E6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B603B7425A3D3ED0067E6B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B603B7625A3D3ED0067E6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B603B7D25A3D7DA0067E6B0 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				4B603B6D25A3D3E50067E6B0 /* CoreImageInSwiftUIApp.swift */,
 				4B603B6F25A3D3E50067E6B0 /* ContentView.swift */,
 				4B603B7125A3D3ED0067E6B0 /* Assets.xcassets */,
+				4B603B7D25A3D7DA0067E6B0 /* dog.jpg */,
 				4B603B7625A3D3ED0067E6B0 /* Info.plist */,
 				4B603B7325A3D3ED0067E6B0 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B603B7E25A3D7DA0067E6B0 /* dog.jpg in Resources */,
 				4B603B7525A3D3ED0067E6B0 /* Preview Assets.xcassets in Resources */,
 				4B603B7225A3D3ED0067E6B0 /* Assets.xcassets in Resources */,
 			);
@@ -277,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoftwareMerchan.CoreImageInSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengjiaoyangCoreImageInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoftwareMerchan.CoreImageInSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengjiaoyangCoreImageInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
