@@ -32,16 +32,16 @@ struct ContentView: View {
 //        currentFilter.inputImage = beginImage
 //        currentFilter.intensity = 1
         
-        // scrystal effect
+//         scrystal effect
 //        let currentFilter = CIFilter.crystallize()
 //        currentFilter.inputImage = beginImage
-//        currentFilter.radius = 200
+//        currentFilter.radius = 10
         
         // twirl distortion effect
-        let currentFilter = CIFilter.twirlDistortion()
+        let currentFilter = CIFilter()
         currentFilter.inputImage = beginImage
-        currentFilter.radius = 100
-        
+        currentFilter.radius = 180
+//
         // get a CIImage from our filter or exit if that fails
         guard let outputImage = currentFilter.outputImage else { return }
 
